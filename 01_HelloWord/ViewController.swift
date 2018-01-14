@@ -13,6 +13,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var label: UILabel!
     
     @IBAction func onClick(_ sender: Any) {
+        label.text = "HelloWorld"
     }
     override func viewDidLoad() {
         super.viewDidLoad()
