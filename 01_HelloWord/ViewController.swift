@@ -15,6 +15,7 @@ class ViewController: UIViewController {
     @IBAction func onClick(_ sender: Any) {
         label.text = "HelloWorld"
         label.textColor = UIColor.red
+        label.font = label.font.withSize(25)
         
     }
     override func viewDidLoad() {
